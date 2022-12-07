@@ -4,7 +4,12 @@ h1,h2,h3,span{
 }
 
 /* Estilos de navegado*/
-
+.baner{
+    background-image: url("../img/fondo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
 .logo{
     font-weight: bold;
     color: white;
@@ -22,4 +27,50 @@ h1,h2,h3,span{
 
 .nav-link:hover{
     color: green;
+}
+/* estilos baner */
+.img1{
+    width: 20%;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    color: black;
+}
+
+.titulo_estilos{
+    font-size:4rem;
+}
+#simbolo{
+    font-size: 2rem;
+}
+
+/* resposivo */
+
+@media screen and (max-width: 768px) {
+    .titulo{
+        padding-top: 50px;
+    }
+    .titulo_estilos{
+        font-size: 2rem;
+    }
+    .img1{
+        width: 10%;
+    }
+    .d-flex{
+       justify-content: center;
+    }
+    .buscar{
+        display: none;
+    }
+    .buscarbtn{
+        display: none;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    #simbolo{
+        font-size: 1rem;
+    }
 }
