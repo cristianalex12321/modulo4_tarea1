@@ -116,6 +116,35 @@ width: 50%;
 label{
     color: white;
 }
+
+
+/* footer */
+.footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logof{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.p1{
+
+    margin-left: 5px;
+    font-size: 20px;
+}
+.registro{
+    color: white;
+    font-size: 15px;
+}
 /* resposivo */
 
 @media screen and (max-width: 768px) {
