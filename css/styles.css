@@ -97,6 +97,25 @@ width: 50%;
 
 /* galeria */
 
+.roe{
+    margin-bottom: 5px;
+}
+
+/* seccion de pass */
+.pass{
+    margin: 20px 0px;
+    height: auto;
+}
+.titulopass{
+    color: white;
+}
+.boton{
+    margin-top: 15px;
+    font-size: 25px;
+}
+label{
+    color: white;
+}
 /* resposivo */
 
 @media screen and (max-width: 768px) {
