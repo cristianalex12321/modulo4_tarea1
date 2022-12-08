@@ -15,7 +15,7 @@ section{
     background-image: url("../img/fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 800px;
 }
 .logo{
     font-weight: bold;
@@ -100,8 +100,12 @@ width: 50%;
 /* resposivo */
 
 @media screen and (max-width: 768px) {
+
+    .baner{
+        height: 300px;
+    }
     .titulo{
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .titulo_estilos{
         font-size: 2rem;
@@ -113,6 +117,10 @@ width: 50%;
     .d-flex{
        justify-content: center;
     }
+    .contenedor{
+        height: 500px;
+    }
+    
     .buscar{
         display: none;
     }
@@ -125,5 +133,14 @@ width: 50%;
     #simbolo{
         font-size: 1rem;
     }
+    .subtitulo{
+        font-size: 15px;
+      text-align: center;
+    }
+    .carrucel{
+
+        width: 80%;
+        }
+
     
 }
