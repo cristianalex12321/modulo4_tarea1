@@ -1,6 +1,13 @@
 /* estilos globales */
-h1,h2,h3,span{
+h1,h2,h3,h4,h5,h6,span{
     font-family: 'Zen Dots', cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+
+section{
+    margin: 10px 0;
 }
 
 /* Estilos de navegado*/
@@ -8,7 +15,7 @@ h1,h2,h3,span{
     background-image: url("../img/fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 900px;
 }
 .logo{
     font-weight: bold;
@@ -42,11 +49,53 @@ h1,h2,h3,span{
 
 .titulo_estilos{
     font-size:6rem;
-    
+    -webkit-text-stroke: 1px black;
 }
 #simbolo{
     font-size: 2rem;
 }
+/* Estilos del cuerpo de la pagina */
+
+.contenedor{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+
+/* carrucel */
+
+.seccion_videojuegos{
+    border: 2px green dashed;
+}
+.contenedor_carrucel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrucel{
+
+width: 50%;
+}
+#imagen_carrucel{
+    height: 300px;
+}
+#estrellas{
+    color: rgb(41, 154, 225);
+    font-size: 25px;
+    text-align: center;
+}
+#estrellas span{
+    color: black;
+}
+
+/* galeria */
 
 /* resposivo */
 
